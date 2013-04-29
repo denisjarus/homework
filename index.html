@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>RHDEKC</title>
+	<link href="yandex.css" rel="stylesheet" type="text/css"/>
+	<script src="yandex.js"></script>
+</head>
+<body>
+	<h1>Рейтинг</h1>
+	<span class="rating">
+		<input type="radio" name="rating" id="rating-1-1" value="5"/>
+		<label for="rating-1-1" title="Shut up and take my money!"></label>
+
+		<input type="radio" name="rating" id="rating-1-2" value="4"/>
+		<label for="rating-1-2" title="Windmills DO work that way!"></label>
+
+		<input type="radio" name="rating" id="rating-1-3" value="3"/>
+		<label for="rating-1-3" title="Not sure if..."></label>
+
+		<input type="radio" name="rating" id="rating-1-4" value="2"/>
+		<label for="rating-1-4" title="This is bad and you should feel bad!"></label>
+
+		<input type="radio" name="rating" id="rating-1-5" value="1"/>
+		<label for="rating-1-5" title="I don't want to live on this planet anymore."></label>
+	</span>
+	<p class="comment">
+		Компонент сделан на чистом CSS3 с помощью новых потрясных селекторов.
+		При наведении на звездочку высвечивается <del>остроумная</del> подпись.
+	</p>
+
+	<h1>Прогресс-бар</h1>
+	<div class="progress" id="progress-1">
+		<div class="progress-value"></div>
+		<div class="progress-label">20%</div>
+	</div>
+	<p class="comment">
+		Делать закругленные края у элемента, разбивая его на три части (а то и на все девять) &mdash; старый, проверенный временем метод.
+		Так верстали еще наши деды, разъезжая верхом на динозаврах. К счастью, такая фигня в большинстве случаев сейчас просто не нужна,
+		и многие дизайнерские макеты из фотошопа легко повторяются с помощью градиентов и теней прямиком из CSS3.
+	</p>
+	<p class="comment">
+		Ширина компонента в данном примере составляет 50% от ширины страницы, подергайте окно браузера за края, чтобы убедиться, что
+		компонент умеет менять ширину. Нехитрый яваскрипт выставляет значение прогресса по клику на компонент.
+	</p>
+	<p class="comment">
+		Еще я знаю, что в HTML5 существует элемент progress, но вы пробовали его катомизировать? Я пробовал. Не самая лучшая идея, короче,
+		так что пускай мой прогресс-бар будет собран из пары дивов.
+	</p>
+
+	<h1>Кнопки</h1>
+	<p class="comment">
+		Эта <button class="button">Кнопка</button> собрана из стандартоного контрола button c приделанными к ней стилями. Как и в прошлом случае, внешний вид повторяет, насколько это возможно, свой прототип из фотошоп-шаблона. Вот еще несколько кнопок разных размеров:
+	</p>
+	<button class="button" id="button-1">Хочу другие цвета</button>
+	<button class="button" id="button-2">Не, сделай, как было, а то глаза режет</button>
+
+	<h1>Блок с иконками</h1>
+	<div class="browsers">
+		<div class="browsers__icon">
+			<img src="img/icon-chrome.png" alt=""></img>
+			<div class="browsers__icon-text">
+				<span style="color: red">Ch</span><span style="color: green"span>ro</span><span style="color: orange">me</span>
+			</div>
+		</div>
+		<div class="browsers__icon">
+			<img src="img/icon-firefox.png" alt=""></img>
+			<div class="browsers__icon-text">
+				<span style="color: orange">Firefox</span>
+			</div>
+		</div>
+		<div class="browsers__icon">
+			<img src="img/icon-opera.png" alt=""></img>
+			<div class="browsers__icon-text">
+				<span style="color: red">Opera</span>
+			</div>
+		</div>
+		<div class="browsers__icon">
+			<img src="img/icon-safari.png" alt=""></img>
+			<div class="browsers__icon-text">
+				<span style="color: gray">Safari</span>
+			</div>
+		</div>
+		<div class="browsers__icon browsers__icon_position_right">
+			<img src="img/icon-ie.png" alt=""></img>
+			<div class="browsers__icon-text">
+				<div style="color: blue">Internet</div>
+				<div style="color: blue">Explorer</div>
+			</div>
+		</div>
+	</div>
+	<p class="comment">
+		Замена картинок надписью работает без скриптов (попробуйте выключить).
+		Блок растягивается на всю страницу, но все же имеет минимальное ограничение по ширине в 800px.
+		Интернет эксплорер отправляется в правый угол на горох модификатором position_right, БЭМ!
+	</p>
+
+	<h1>Текст</h1>
+	<p class="comment">
+		Шрифт для текста, а судя по шаблону из фотошопа &mdash; это мой любимый PT Sans, импортируется из Google Fonts.
+	</p>
+	<article class="content">
+		<h1>Тема: «Сюжетный анапест: основные моменты»</h1>
+		<div class="left">
+		<p>
+			Нельзя восстановить истинной хронологической последовательности событий, потому что мелькание мыслей параллельно. Структура аллитерирует мелодический реформаторский пафос, однако дальнейшее развитие приемов декодирования мы находим в работах академика В.Виноградова. Аллюзия наблюдаема. Аллитерация, как бы это ни казалось парадоксальным, параллельна. Мифопорождающее текстовое устройство прочно вызывает эпитет, причём сам Тредиаковский свои стихи мыслил как “стихотворное дополнение” к книге Тальмана.
+		</p>
+		<p>
+			Речевой акт традиционно осознаёт музыкальный дольник, но не рифмами. Различное расположение просветляет мелодический образ, таким образом постепенно смыкается с сюжетом. Силлабо-тоника, в первом приближении, просветляет мелодический ямб, таким образом в некоторых случаях образуются рефрены, кольцевые композиции, анафоры.
+		</p>
+		</div>
+		<div class="right">
+		<p>
+			Представленный лексико-семантический анализ является психолингвистическим в своей основе, но мифопорождающее текстовое устройство аллитерирует мифологический генезис свободного стиха, об этом свидетельствуют краткость и завершенность формы, бессюжетность, своеобразие тематического развертывания.
+		</p>
+		<p>
+			Драма, по определению отражает брахикаталектический стих, хотя в существование или актуальность этого он не верит, а моделирует собственную реальность. Лексика осознаёт литературный палимпсест, об этом свидетельствуют краткость и завершенность формы, бессюжетность, своеобразие тематического развертывания.
+		</p>
+		<ul>
+			<li>Курит ли трупка мой</li>
+			<li><a href="#">из трупка тфой пихтишь</a></li>
+			<li><abbr title="нет, не пил">Или мой кафе пил</abbr></li>
+			<li>тфой в щашешка сидишь</li>
+		</ul>
+		</div>
+	</article>
+</body>
+</html>
