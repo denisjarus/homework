@@ -4,6 +4,8 @@ body {
 	margin: 50px;
 
 	font-family: sans-serif;
+
+	transition: color, background-color, 0.5s, 0.5s;
 }
 
 h1 {
@@ -37,7 +39,7 @@ h1 {
 
 	background: url('img/rating_state_off.png') center no-repeat;
 
-	transition: background 0.2s;
+	transition: background 0.15s;
 
 	cursor: pointer;
 }
